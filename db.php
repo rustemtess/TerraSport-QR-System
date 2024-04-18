@@ -1,8 +1,8 @@
 <?
 $host = 'localhost';
-$login = 'p-331522_ts';
-$password = 'TERRASPORT2023';
-$dbName = 'p-331522_ts';
+$login = '';
+$password = '';
+$dbName = '';
 
 $db = mysqli_connect($host, $login, $password, $dbName);
 
