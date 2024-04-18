@@ -1,0 +1,12 @@
+@font-face {
+    font-family: 'Montserrat';
+    src: url('Montserrat/Montserrat-Medium.ttf') format('truetype'); /* Формат TrueType */
+    font-weight: 500; /* Например, normal или bold */
+    font-style: normal; /* Например, normal или italic */
+}
+@font-face {
+    font-family: 'Poppins';
+    src: url('Poppins/Poppins-Medium.ttf') format('truetype'); /* Формат TrueType */
+    font-weight: 500; /* Например, normal или bold */
+    font-style: normal; /* Например, normal или italic */
+}

@@ -1,0 +1,195 @@
+#header-title {
+    font-family: 'Montserrat';
+    font-size: 28px;
+    color: white;
+    margin-left: 1em;
+    line-height: 0.95em;
+}
+
+#header-title p, span {
+    font-size: 20px;
+    color: #A8CF45;
+    font-weight: 400;
+}
+
+#header-title span {
+    color: #F58634;
+}
+
+#online {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 1.2em;
+    color: white;
+    margin-right: 1em;
+}
+
+#online > p {
+    font-family: 'Poppins', 'Montserrat', sans-serif;
+    font-weight: 400;
+    font-size: 18px;
+}
+
+#online-share {
+    width: 10px;
+    height: 10px;
+    background-color: #2efc2e; /* Ярко зеленый цвет */
+    border-radius: 50%; /* Делаем круглым */
+    box-shadow: 0 0 10px 3px #2efc2e; /* Начальные свойства свечения */
+    animation: pulse 1s infinite;
+}
+
+@keyframes pulse {
+    0% {
+      box-shadow: 0 0 16px 1px #2efc2e; /* Начальные свойства свечения */
+    }
+    50% {
+      box-shadow: 0 0 20px 3px #2efc2e; /* Увеличенные свойства свечения в середине анимации */
+    }
+    100% {
+      box-shadow: 0 0 16px 1px #2efc2e; /* Возвращаемся к начальным свойствам свечения в конце анимации */
+    }
+}
+
+.form {
+    display: flex;
+    flex-direction: column;
+    gap: 0.6em;
+    justify-content: flex-start;
+    max-width: 380px;
+    width: 100%;
+    margin-top: 5em;
+}
+
+#success-closets, .menu-button, .btn, .input, .desc, #protect, #qr-text, #main-header, .buttons-select button, .err-closets {
+    font-family: 'Poppins', 'Montserrat', sans-serif;
+}
+
+.btn {
+    font-size: 20px;
+    background-color: #F56823;
+    border: #F58634 1px solid;
+    width: 88.9%;
+    padding: 10px 18px;
+    border-radius: 8px;
+    color: white;
+    margin: 0 1em;
+    cursor: pointer;
+    transition: .2s;
+}
+
+.open {
+    background-color: #A8CF45; 
+    border-color: #A8CF45;
+}
+
+.open:hover {
+    background: none;
+}
+
+.btn:hover {
+    background: none;
+}
+
+.input {
+    border: 1px solid #343434;
+    padding: 8px 16px;
+    font-size: 20px;
+    color: rgba(255, 255, 255, 0.9);
+    outline: none;
+    background: none;
+    border-radius: 8px;
+    text-align: center;
+    margin: 0 1em;
+    cursor: text;
+}
+
+.desc {
+    color: rgba(255, 255, 255, 0.8);
+    font-size: 16px;
+    margin: 0 1.2em;
+}
+
+.desc > span {
+    color: #EB4C42;
+    margin-right: 0.3em;
+}
+
+#protect {
+    color: rgba(255, 255, 255, 0.6);
+    margin-bottom: 1.5em;
+    font-size: 13px;
+}
+
+#qr-text {
+    color: rgb(247, 160, 47);
+    font-weight: 400;
+    font-size: 16px;
+    max-width: 380px;
+    width: 100%;
+    text-align: center;
+}
+
+#main-header {
+    color: rgba(255, 255, 255, 0.8);
+    font-weight: 400;
+    font-size: 16px;
+    margin: 1.2em 1.8em 0em;
+}
+
+#main-header > span {
+    font-size: 16px;
+    color: rgb(247, 160, 47);
+}
+
+.buttons-select button, .err-closets {
+    background-color: rgba(168, 207, 69, 0.8);
+    color: white;
+    font-size: 23.5px;
+    border: none;
+    width: 65px;
+    height: 65px;
+    cursor: pointer;
+    transition: .2s;
+    border: 2px solid rgba(168, 207, 69, 0.8);
+}
+
+.buttons-select button:hover {
+    background: none;
+}
+
+.menu {
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.menu-button {
+    display: flex;
+    color: rgba(255, 255, 255, 0.9);
+    font-size: 15px;
+    justify-content: center;
+    align-items: center;
+    gap: 0.8em;
+    margin: 0.8em 1.8em 1.5em;
+    cursor: pointer;
+    transition: .2s;
+}
+
+.menu-button:hover {
+    color: white;
+}
+
+.err-closets {
+    background: none;
+    border-color: #EB4C42;
+    cursor: default;
+}
+
+#success-closets {
+    color: rgba(255, 255, 255, 0.6);
+    font-size: 14px;
+    margin-left: 0.4em;
+    width: 100wv;
+    text-align: center;
+}
